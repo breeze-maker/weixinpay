@@ -1,45 +1,15 @@
 {
-  "_args": [
-    [
-      "weixinpay@1.0.12",
-      "/var/www/html/mp.wpic-tools.com/server"
-    ]
-  ],
-  "_from": "weixinpay@1.0.12",
-  "_id": "weixinpay@1.0.12",
-  "_inBundle": false,
-  "_integrity": "sha1-3MzyTmidYIsvtocd/sDk5MyKmCs=",
-  "_location": "/weixinpay",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "weixinpay@1.0.12",
-    "name": "weixinpay",
-    "escapedName": "weixinpay",
-    "rawSpec": "1.0.12",
-    "saveSpec": null,
-    "fetchSpec": "1.0.12"
+  "name": "weixinpay",
+  "version": "1.0",
+  "description": "微信小程序支付，创建统一订单，调用支付，退款",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/weixinpay/-/weixinpay-1.0.12.tgz",
-  "_spec": "1.0.12",
-  "_where": "/var/www/html/mp.wpic-tools.com/server",
-  "author": {
-    "name": "kingwell leng"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breeze-maker/weixinpay.git"
   },
-  "bugs": {
-    "url": "https://github.com/lengjh/weixinpay/issues"
-  },
-  "dependencies": {
-    "md5": "*",
-    "request": "^2.79.0",
-    "xml2js": "^0.4.17"
-  },
-  "description": "微信小程序支付，创建统一订单，调用支付",
-  "homepage": "https://github.com/lengjh/weixinpay#readme",
   "keywords": [
     "支付",
     "微信支付",
@@ -55,17 +25,18 @@
     "wx-payment",
     "weixin-payment",
     "weixinpayment",
-    "payment"
+    "payment",
+    "微信退款"
   ],
+  "author": "charles cao",
   "license": "ISC",
-  "main": "index.js",
-  "name": "weixinpay",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lengjh/weixinpay.git"
+  "bugs": {
+    "url": "https://github.com/breeze-maker/weixinpay/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.12"
+  "homepage": "https://github.com/breeze-maker/weixinpay#readme",
+  "dependencies": {
+    "md5": "*",
+    "request": "^2.79.0",
+    "xml2js": "^0.4.17"
+  }
 }
